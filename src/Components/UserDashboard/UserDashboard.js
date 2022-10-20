@@ -92,6 +92,21 @@ const UserDashboard = () => (
               </div>
             </div>
 
+            <div class="card">
+              <div class="card-content">
+                <div class="card-body">
+                  <div class="media d-flex">
+                    <div class="align-self-center">
+                    </div>
+                    <div class="media-body text-right">
+                      <h3>Profile</h3>
+                      <span>Visit your Account for more info</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
 
