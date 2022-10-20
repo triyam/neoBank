@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const UserKYC = () => (
 	<>
@@ -76,7 +77,7 @@ const UserKYC = () => (
 				</div>
 
 				<div className="form-group mb-4">
-					<input type="submit" name='userKYC' className="btn btn-primary submitbuttom" id="userKYC" />
+				<Link to="/verifyotp"><input type="submit" name='userKYC' className="btn btn-primary submitbuttom" id="userKYC" /></Link>
 				</div>
 
 			</form>

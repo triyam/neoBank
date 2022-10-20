@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import axios from "axios"
+import React from 'react'
 
 const UserLogin = () => {
     const [email, setEmail] = useState("");
@@ -68,20 +67,13 @@ const UserLogin = () => {
                         </label>
                     </div>
 
-                    <div className="form-group mb-4">
-                        <input
-                            type="submit"
-                            name="signin"
-                            className="btn btn-primary"
-                            id="signin"
-                            value="Login"
-                            onClick={loginUser}
-                        />
-                    </div>
+                <div className="form-group mb-4">
+                    <input type="submit" name='login' className="btn btn-primary submitbuttom" id="login" />
+                </div>
 
-                    <div className="form-group mb-4">
-                        <label><a href='/UserRegister'>Dont have account? Register</a></label>
-                    </div>
+                <div className="form-group mb-4">
+                    <label><a href='/UserRegister'>Dont have account? Register</a></label>
+                </div>
 
                 </form>
             </div>

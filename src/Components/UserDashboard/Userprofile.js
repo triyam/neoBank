@@ -1,28 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import { BsChevronLeft } from 'react-icons/bs';
 
-const Userprofile = () => (
+const UserProfile = () => (
     <>
-        <h2 className='m-3 text-center'>Verify OTP</h2>
-        <div className="col-md-6 mb-md-0 mb-2 mx-auto">
-            <form method='POST' className="m-5" id='register-form'>
- 
-                <div className="form-group mb-4">
-                    <label htmlFor="otp">Type your OTP</label>
-                    <input type="password" name='otp' className="form-control" id="otp" placeholder="Enter Your OTP"
-                        autoComplete="off" required />
-                </div>
-
-                <div className="form-group mb-4">
-                    <input type="submit" name='verify' className="btn btn-primary submitbuttom" id="verify" />
-                </div>
-
-                <div className="form-group mb-4">
-                    <label><a href='/userLogin'>Resent OTP</a></label>
-                </div>
-
-            </form>
+        <div className='mobileNav'>
+            <h3 className='text-center'><Link to="/userdashboard" style={{color:"white"}}><BsChevronLeft /></Link>&nbsp;&nbsp;&nbsp;Account</h3>
         </div>
+
+        <h2 className='m-3 text-center'>Account</h2>
+        
     </>
 )
 
-export default Userprofile
+export default UserProfile

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const VerifyOTP = () => (
     <>
@@ -13,11 +14,11 @@ const VerifyOTP = () => (
                 </div>
 
                 <div className="form-group mb-4">
-                    <input type="submit" name='verify' className="btn btn-primary submitbuttom" id="verify" />
+                    <Link to='/userdashboard'><input type="submit" name='verify' className="btn btn-primary submitbuttom" id="verify" /></Link>
                 </div>
 
                 <div className="form-group mb-4">
-                    <label><a href='/userLogin'>Resent OTP</a></label>
+                    <label><Link to="/verifyotp">Resent OTP</Link></label>
                 </div>
 
             </form>
