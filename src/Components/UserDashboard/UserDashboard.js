@@ -12,7 +12,7 @@ const UserDashboard = () => (
       <div class="grey-bg container-fluid">
         <section id="minimal-statistics">
           <div class="row">
-
+          <div class=" col-sm-6 col-12">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
@@ -27,7 +27,9 @@ const UserDashboard = () => (
                 </div>
               </div>
             </div>
+            </div>
 
+            <div class=" col-sm-6 col-12">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
@@ -43,7 +45,9 @@ const UserDashboard = () => (
                 </div>
               </div>
             </div>
-
+            </div>
+            
+            <div class=" col-sm-6 col-12">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
@@ -59,7 +63,9 @@ const UserDashboard = () => (
                 </div>
               </div>
             </div>
+            </div>
 
+            <div class=" col-sm-6 col-12">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
@@ -75,7 +81,9 @@ const UserDashboard = () => (
                 </div>
               </div>
             </div>
+            </div>
 
+            <div class="col-sm-6 col-12">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
@@ -85,13 +93,16 @@ const UserDashboard = () => (
                     </div>
                     <div class="media-body text-right">
                       <h3>Exchange</h3>
-                      <span>Exchange your currency with crypto</span>
+                      <span>Exchange your currency</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            </div>
 
+
+            <div class=" col-sm-6 col-12">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
@@ -106,7 +117,7 @@ const UserDashboard = () => (
                 </div>
               </div>
             </div>
-
+            </div>
           </div>
 
 
