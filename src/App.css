@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgba(254,233,228,255);
+  margin: 0px !important; 
+  padding: 0px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  color: rgb(52,94,175);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app h2 {
+  font-weight: 600;
+  font-size:  160%;
+}
+
+label {
+  color: #2350ab;
+  font-weight: bold;
+}
+
+.submitbuttom {
+  width: 100%;
+}
+
+label a {
+  text-decoration: none;
+}
+
+.mobileNav {
+  background-color: #2350ab;
+  color: #fff;
+  padding: 1% 0% 1% 0%;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  font-size: larger;
+}
+
+.card {
+  background-color: rgba(254,233,228,255);
+  color: #884f60;
+  border-top: solid rgba(254,233,228,255);
+  border-left: solid rgba(254,233,228,255);
+  border-right: solid rgba(254,233,228,255);
+  border-bottom: solid 0.1px #884f60;
+}
+
+
+/* Small Devices */
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .mobileNav {
+    background-color: #2350ab;
+    color: #fff;
+    padding: 4% 4% 4% 4%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: larger;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .app h2 {
+    font-weight: 600;
+    font-size:  160%;
+    padding: 0% 5%;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .mobileNav {
+    background-color: #2350ab;
+    color: #fff;
+    padding: 4% 4% 4% 4%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: larger;
   }
+
+  .app h2 {
+    font-weight: 600;
+    font-size:  160%;
+    padding: 0% 5%;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+  .mobileNav {
+    background-color: #2350ab;
+    color: #fff;
+    padding: 4% 4% 4% 4%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: larger;
+  }
+
+  .app h2 {
+    font-weight: 600;
+    font-size:  160%;
+    padding: 0% 5%;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .mobileNav {
+    background-color: #2350ab;
+    color: #fff;
+    padding: 4% 4% 4% 4%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    font-size: larger;
+  }
+
+  .app h2 {
+    font-weight: 600;
+    font-size:  160%;
+    padding: 0% 5%;
+  }
+
 }
