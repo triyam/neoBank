@@ -9,7 +9,8 @@ import UserDashboard from './Components/UserDashboard/UserDashboard';
 function App() {
   return (
     <div className='app'>
-      <UserDashboard/>
+      <UserLogin />
+      <UserRegister />
     </div>
   );
 }
