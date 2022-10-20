@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { BsChevronLeft } from 'react-icons/bs';
 
 const UserDashboard = () => (
@@ -20,7 +21,7 @@ const UserDashboard = () => (
                     <div class="align-self-center">
                     </div>
                     <div class="media-body text-right">
-                      <h3>Credits</h3>
+                      <Link style={{textDecoration: 'none', color:"#884F60"}} to="/usercredits"><h3>Credits</h3></Link>
                       <span>Management and payment</span>
                     </div>
                   </div>
@@ -38,7 +39,7 @@ const UserDashboard = () => (
 
                     </div>
                     <div class="media-body text-right">
-                      <h3>Deposits</h3>
+                    <Link style={{textDecoration: 'none', color:"#884F60"}} to="/userdeposits"><h3>Deposits</h3></Link>
                       <span>Manage your saving</span>
                     </div>
                   </div>
@@ -56,7 +57,7 @@ const UserDashboard = () => (
 
                     </div>
                     <div class="media-body text-right">
-                      <h3>Tickets</h3>
+                    <Link style={{textDecoration: 'none', color:"#884F60"}} to="/usertickets"><h3>Tickets</h3></Link>
                       <span>Buying Tickets</span>
                     </div>
                   </div>
@@ -74,7 +75,7 @@ const UserDashboard = () => (
 
                     </div>
                     <div class="media-body text-right">
-                      <h3>Cashback</h3>
+                    <Link style={{textDecoration: 'none', color:"#884F60"}} to="/usercashback"><h3>Cashback</h3></Link>
                       <span>Get Cashback on every purchase</span>
                     </div>
                   </div>
@@ -93,12 +94,11 @@ const UserDashboard = () => (
                     </div>
                     <div class="media-body text-right">
                       <h3>Exchange</h3>
-                      <span>Exchange your currency</span>
+                      <span>Exchange your currency with crypto</span>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
             </div>
 
 
@@ -110,7 +110,7 @@ const UserDashboard = () => (
                     <div class="align-self-center">
                     </div>
                     <div class="media-body text-right">
-                      <h3>Profile</h3>
+                    <Link style={{textDecoration: 'none', color:"#884F60"}} to="/userprofile"><h3>Profile</h3></Link>
                       <span>Visit your Account for more info</span>
                     </div>
                   </div>
