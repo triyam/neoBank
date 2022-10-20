@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const UserRegister = () => (
     <>
@@ -32,11 +33,11 @@ const UserRegister = () => (
                 </div>
 
                 <div className="form-group mb-4">
-                    <input type="submit" name='register' className="btn btn-primary submitbuttom" id="register" />
+                    <Link to='/userkyc'><input type="submit" name='register' className="btn btn-primary submitbuttom" id="register" /></Link>
                 </div>
 
                 <div className="form-group mb-4">
-                    <label><a href='/userLogin'>Already have account? Login</a></label>
+                    <label><Link to='/userlogin'>Already have account? Login</Link></label>
                 </div>
 
             </form>

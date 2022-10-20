@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const UserLogin = () => (
     <>
@@ -26,11 +27,11 @@ const UserLogin = () => (
                 </div>
 
                 <div className="form-group mb-4">
-                    <input type="submit" name='login' className="btn btn-primary submitbuttom" id="login" />
+                <Link to="/verifyotp"><input type="submit" name='login' className="btn btn-primary submitbuttom" id="login" /></Link>
                 </div>
 
                 <div className="form-group mb-4">
-                    <label><a href='/UserRegister'>Dont have account? Register</a></label>
+                    <label><Link to='/userregister'>Dont have account? Register</Link></label>
                 </div>
 
             </form>
