@@ -30,10 +30,17 @@ label a {
   background-color: #2350ab;
   color: #fff;
   padding: 1% 0% 1% 0%;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
   font-size: larger;
 }
+
+.backButton {
+  display: none;
+}
+
+.mobnavtext {
+  display: none;
+}
+
 
 .card {
   background-color: rgba(254,233,228,255);
@@ -75,6 +82,19 @@ label a {
     padding: 0% 5%;
   }
 
+  .mobnavtexthide {
+    display: none;
+  }
+
+  .mobnavtext {
+    display: inline;
+  }
+
+  .backButton {
+    float: left;
+    display: inline;
+  }
+
 }
 
 /* Portrait tablets and small desktops */
@@ -94,6 +114,20 @@ label a {
     font-size:  160%;
     padding: 0% 5%;
   }
+
+  .mobnavtexthide {
+    display: none;
+  }
+
+  .mobnavtext {
+    display: inline;
+  }
+
+  .backButton {
+    float: left;
+    display: inline;
+  }
+
 
 }
 
@@ -115,6 +149,20 @@ label a {
     padding: 0% 5%;
   }
 
+  .mobnavtexthide {
+    display: none;
+  }
+
+  .mobnavtext {
+    display: inline;
+  }
+
+  .backButton {
+    float: left;
+    display: inline;
+  }
+
+
 }
 
 /* Portrait phones and smaller */
@@ -133,6 +181,19 @@ label a {
     font-weight: 600;
     font-size:  160%;
     padding: 0% 5%;
+  }
+
+  .mobnavtexthide {
+    display: none;
+  }
+
+  .mobnavtext {
+    display: inline;
+  }
+
+  .backButton {
+    float: left;
+    display: inline;
   }
 
 }

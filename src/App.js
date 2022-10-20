@@ -5,7 +5,7 @@ import UserRegister from './Components/UserAuth/UserRegister';
 import VerifyOTP from './Components/UserAuth/VerifyOTP';
 import UserKYC from './Components/UserAuth/UserKYC';
 import UserDashboard from './Components/UserDashboard/UserDashboard';
-import Userprofile from './Components/UserDashboard/UserProfile';
+import UserProfile from './Components/UserDashboard/Userprofile';
 import UserCredits from './Components/UserDashboard/UserCredits';
 import UserExchange from './Components/UserDashboard/UserExchange';
 import UserDeposits from './Components/UserDashboard/UserDeposits';
